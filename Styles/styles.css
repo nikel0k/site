@@ -1,12 +1,13 @@
 body {
   font-family: "Manrope", sans-serif;
+  width: 100%;
+  background: #f5f5f5;
 }
 
 .container_1 {
   width: 1150px;
   height: 650px;
   margin: 0 auto;
-  box-sizing: border-box;
   margin-top: 128px;
   margin-bottom: 150px;
 }
@@ -15,7 +16,6 @@ body {
   width: 1151px;
   height: 518px;
   margin: 0 auto;
-  box-sizing: border-box;
   margin-bottom: 150px;
 }
 
@@ -36,6 +36,8 @@ h1 {
 }
 
 .interierBG {
+  padding: 0px;
+  position: relative;
   background-image: url("../resources/Rectangle\ 1.jpg");
   width: 1150px;
   height: 500px;
@@ -43,15 +45,16 @@ h1 {
 }
 
 .interierBG_Text h2 {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
   color: #fff;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.6px;
-  width: 430px;
-  padding-top: 379px;
-  padding-left: 40px;
+  width: 470px;
 }
 .About {
   color: #121212;
@@ -88,4 +91,154 @@ h1 {
   font-weight: 400px;
   background-color: #ad1818;
   cursor: pointer;
+}
+
+.item1 {
+  width: 1150px;
+  margin: auto;
+  padding-bottom: 90px;
+}
+
+.TextContainer {
+  color: #121212;
+  padding-bottom: 15px;
+}
+
+.Item__Image {
+  display: block;
+  padding-bottom: 15px;
+  width: 100%;
+  height: 418px;
+}
+
+h3 {
+  width: 1150px;
+  height: 25px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  color: #121212;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+}
+
+.Item__title {
+  color: #121212;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.9px;
+  padding-bottom: 15px;
+}
+
+.Item__cart-btn {
+  width: 127px;
+  height: 27px;
+  color: #ad1818;
+  padding: 0px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+
+.button_watchall_container {
+  width: 100%;
+  padding-bottom: 150px;
+}
+
+.button_watchall {
+  display: block;
+  width: 48.34%;
+  height: 153px;
+  margin: auto;
+  text-decoration: none;
+  text-align: center;
+  line-height: 153px;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: -0.9px;
+  color: #ad1818;
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+}
+
+.button_watchall:hover {
+  color: #fff;
+  background-color: #ad1818;
+}
+
+.services {
+  width: 1400px;
+  height: 1844px;
+  margin: auto;
+  background-color: black;
+}
+
+.services_text {
+  margin: auto 0px;
+  margin-bottom: 34px;
+  padding-top: 151px;
+  padding-left: 127px;
+  width: 66px;
+  height: 25px;
+
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+}
+
+.planning_solution_1 {
+  width: 1150px;
+  height: 270px;
+  margin: auto;
+  background-color: #ff0000;
+  background-image: url(../resources/Karandash.png);
+}
+
+.planning_solution_2 {
+  width: 1150px;
+  height: 270px;
+  margin: auto;
+  background-color: #ff0000;
+  background-image: url(../resources/Rainbow.png);
+}
+
+.planning_solution_3 {
+  width: 1150px;
+  height: 270px;
+  margin: auto;
+  background-color: #ff0000;
+  background-image: url(../resources/Chertej.png);
+}
+
+.planning_solution_4 {
+  width: 1150px;
+  height: 270px;
+  margin: auto;
+  background-color: #ff0000;
+  background-image: url(../resources/Sklad.png);
+}
+
+.text_serv {
+  margin: auto 0px;
+  padding-top: 15px;
+  padding-left: 127px;
+  color: #fff;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.9px;
+}
+
+.services_container {
+  padding-bottom: 60px;
 }
