@@ -9,14 +9,14 @@ body {
   margin: 0 auto;
 }
 
-.b-header {
+.interior {
   /* border: 1px solid red; */
   width: 1150px;
   height: 650px;
   margin-bottom: 150px;
 }
 
-.b-header__title {
+.interior__title {
   /* border: 1px solid red; */
   width: 956px;
   height: 120px;
@@ -30,7 +30,7 @@ body {
   margin-bottom: 30px;
 }
 
-.b-header__image {
+.interior__image {
   /* border: 1px solid red; */
   position: relative;
   background-image: url("../resources/Rectangle\ 1.jpg");
@@ -40,7 +40,7 @@ body {
   height: 500px;
 }
 
-.b-header__text {
+.interior__text {
   /* border: 1px solid red; */
   position: absolute;
   width: 435px;
@@ -56,14 +56,14 @@ body {
   left: 40px;
 }
 
-.b-about {
+.about {
   /* border: 1px solid red; */
   width: 1051px;
   height: 518px;
   margin-bottom: 150px;
 }
 
-.b-about__title {
+.about__title {
   /* border: 1px solid red; */
   font-size: 18px;
   font-weight: 400;
@@ -72,7 +72,7 @@ body {
   margin-bottom: 30px;
 }
 
-.b-about__text {
+.about__text {
   /* border: 1px solid red; */
   width: 1048px;
   height: 366px;
@@ -84,7 +84,7 @@ body {
   margin-bottom: 30px;
 }
 
-.b-about__btn {
+.about__btn {
   /* border: 1px solid red; */
   display: block;
   cursor: pointer;
@@ -106,14 +106,14 @@ body {
   color: rgba(255, 255, 255, 1);
 }
 
-.b-projects {
+.projects {
   /* border: 1px solid red; */
   width: 1150px;
   height: 2122px;
   margin-bottom: 150px;
 }
 
-.b-projects__title {
+.projects__title {
   /* border: 1px solid red; */
   font-size: 18px;
   font-weight: 400;
@@ -122,14 +122,14 @@ body {
   margin-bottom: 30px;
 }
 
-.b-project {
+.project {
   /* border: 1px solid red; */
   width: 1150px;
   height: 548px;
   margin-bottom: 90px;
 }
 
-.b-poject__img {
+.poject__img {
   width: 1150px;
   height: 450px;
   background-size: contain;
@@ -137,7 +137,7 @@ body {
   margin-bottom: 15px;
 }
 
-.b-project__name {
+.project__name {
   font-size: 30px;
   font-weight: 400;
   line-height: 41px;
@@ -145,7 +145,7 @@ body {
   margin-bottom: 15px;
 }
 
-.b-project__details {
+.project__details {
   font-size: 20px;
   font-weight: 400;
   line-height: 27px;
@@ -154,7 +154,7 @@ body {
   cursor: pointer;
 }
 
-.b-projects-all__btn {
+.projects-all__btn {
   border: 1px solid red;
   color: rgba(173, 24, 24, 1);
   display: block;
@@ -169,7 +169,7 @@ body {
   padding-top: 56px;
 }
 
-.b-projects-all__btn:hover {
+.projects-all__btn:hover {
   color: white;
   background-color: rgba(173, 24, 24, 1);
 }
@@ -181,7 +181,7 @@ body {
   height: 1844px;
 }
 
-.b-services__title {
+.services__title {
   /* border: 1px solid red; */
   width: 1150px;
   height: 25px;
@@ -195,14 +195,14 @@ body {
   margin-left: 2px;
 }
 
-.b-service {
+.service {
   /* border: 1px solid red; */
   width: 1150px;
   height: 326px;
   margin-bottom: 60px;
 }
 
-.b-service__img {
+.service__img {
   width: 1150px;
   height: 270px;
   background-size: contain;
@@ -210,7 +210,7 @@ body {
   margin-bottom: 15px;
 }
 
-.b-service__name {
+.service__name {
   color: white;
   font-size: 30px;
   font-weight: 400;
