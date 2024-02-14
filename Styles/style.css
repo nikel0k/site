@@ -155,7 +155,7 @@ body {
 }
 
 .b-projects-all__btn {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   color: rgba(173, 24, 24, 1);
   display: block;
   text-decoration: none;
